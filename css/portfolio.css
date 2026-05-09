@@ -1,9 +1,22 @@
+.portfolio {
+  padding: 120px 141px;
+}
 .portfolio h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
+}
+.container .portfolio-container {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-list {
+  display: flex;
+  width: 1158px;
+  justify-content: space-between;
 }
 .portfolio-title {
   font-weight: 500;
