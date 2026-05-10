@@ -9,13 +9,15 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   padding-right: 331px;
   padding-left: 331px;
 }
 .hero-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;

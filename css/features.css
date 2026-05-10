@@ -1,6 +1,6 @@
 .container .features-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .features-title {
   font-weight: 500;

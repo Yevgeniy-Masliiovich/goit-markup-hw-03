@@ -24,6 +24,7 @@ dd {
 }
 ul {
   list-style: none;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
@@ -44,7 +45,10 @@ img {
   margin: -1px;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
