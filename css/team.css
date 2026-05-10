@@ -5,7 +5,18 @@
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 72px;
+}
+.team-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-list {
   display: flex;
@@ -16,14 +27,6 @@
   padding: 32px 16px;
   max-width: 264px;
 }
-.team h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.111;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
 .team-list li {
   background: #fff;
   border-radius: 0 0 4px 4px;
